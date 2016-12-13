@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Signup_firebase"
+    >
+
+    <Button
+        android:id="@+id/tuser"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT USER"
+        android:background="@android:drawable/btn_dropdown"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/tfdate"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="FROM DATE"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to"/>
+
+        <Button
+            android:id="@+id/ttdate"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TO DATE"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/tsubmit"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        />
+
+    <TextView  android:layout_width="match_parent"
+        android:layout_height="0dp" android:id="@+id/tvdc" android:layout_weight="0.8" android:scrollbars = "vertical" android:textIsSelectable="true" android:background="@drawable/border"
+        android:padding="10dp" android:textColor="#000000" />
+    <Button
+        android:id="@+id/tsave"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE DATA"
+        />
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_add_user"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Controller_program"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:orientation="vertical"
+        tools:context="com.mlmishra.bhupendramishra.allelectronics.Signup_firebase"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/auimageview"
+            android:src="@drawable/ic_launcher"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPDATE DOCTOR MASTER LIST"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:shadowDx="25"
+            android:shadowDy="25"
+            android:shadowRadius="50"
+            android:id="@+id/autextView1"
+            android:textColor="#00B"
+            android:layout_centerHorizontal="true" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select your Option"
+            android:id="@+id/rg1"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/U11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Dr"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/U12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modify Dr"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/U13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Territory"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/U14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPLOAD DATA"
+                android:checked="false" />
+        </RadioGroup>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drname"
+            android:layout_marginTop="5dp"
+            android:hint="DOCTER's NAME"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/drterritory"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr Territory"
+            android:background="@android:drawable/btn_dropdown"
+            />
+
+        <Button
+            android:id="@+id/drspeciality"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Dr Speciality"
+            android:background="@android:drawable/btn_dropdown"
+            />
+
+
+        <Button
+            android:id="@+id/drnamebutton"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Docter"
+            android:background="@android:drawable/btn_dropdown"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/draddress"
+            android:hint="Docter Address"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drapoint"
+            android:hint="APPOINTMENT TIMINGS"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drater"
+            android:hint="ADD TERRITORY"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Ensure that the File must be in the parent directory (not inside any other folde) With name DRLIST.TXT (in the proper format)"
+            android:id="@+id/udltv"
+            android:textColor="#00B"
+            android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:id="@+id/drsubmit"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD TO MASTER LIST"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

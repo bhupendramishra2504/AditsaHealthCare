@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Delete_user"
+    android:gravity="center_horizontal">
+
+
+    <TextView  android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/ninfo"
+        android:scrollbars = "vertical" android:textIsSelectable="true" android:background="@drawable/border"
+        android:padding="10dp" android:textColor="#000000"/>
+
+
+    <ListView
+        android:id="@+id/notification_list_unread"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="#ff91A4"
+        android:padding="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="20dp"
+        android:cacheColorHint="@android:color/transparent"
+       />
+
+    <ListView
+        android:id="@+id/notification_list"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="#0087bd"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="2dp"
+        android:cacheColorHint="@android:color/transparent"
+
+        />
+
+
+
+</LinearLayout>

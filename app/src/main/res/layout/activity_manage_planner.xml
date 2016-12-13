@@ -1,0 +1,198 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/search_layout"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Controller_program"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/auimageview"
+        android:src="@drawable/ic_launcher"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your Option"
+        android:id="@+id/rg1"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/U11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BULK UPLOADING"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/U12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SINGLE ENTRY"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/U13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIEW USER WISE PLANNER"
+            android:checked="false" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:shadowDx="25"
+        android:shadowDy="25"
+        android:shadowRadius="50"
+        android:id="@+id/mptv0"
+        android:textColor="#00B"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/mpup"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD PLANNER"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dcrrd"
+        android:layout_marginTop="10dp"
+        android:hint="Select Date"
+        android:focusable="false"
+        android:singleLine="true"/>
+
+
+    <Button
+        android:id="@+id/mpuser"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT USER"
+        android:background="@android:drawable/btn_dropdown"
+        />
+
+    <Button
+        android:id="@+id/mpselter"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT TERRITORY"
+        android:background="@android:drawable/btn_dropdown"
+        />
+    <Button
+        android:id="@+id/mpspec"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT SPECIALITY"
+        android:background="@android:drawable/btn_dropdown"
+        />
+
+        <EditText android:id="@+id/inputSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search Dr Name...."
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:inputType="textVisiblePassword"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#00B"/>
+
+        <ListView
+            android:id="@+id/list_view11"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#A52A2A"
+            android:dividerHeight="4px"/>
+
+        <Button
+            android:id="@+id/mpsubmit"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            />
+
+        <TextView  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/mpse"  android:scrollbars = "vertical" android:textIsSelectable="true" android:background="@drawable/border"
+            android:padding="10dp" android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/mpfdate"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="FROM DATE"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to"
+                android:id="@+id/mpto"/>
+
+            <Button
+                android:id="@+id/mptdate"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="TO DATE"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/mpsubmitr"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            />
+        <TextView  android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/mpvdc"  android:scrollbars = "vertical" android:textIsSelectable="true" android:background="@drawable/border"
+            android:padding="10dp" android:textColor="#000000" />
+        <Button
+            android:id="@+id/mpsave"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE DATA"
+            />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>

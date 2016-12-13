@@ -1,0 +1,259 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/search_layout"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Controller_program"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="8dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Signup_firebase"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:shadowDx="25"
+        android:shadowDy="25"
+        android:shadowRadius="50"
+        android:id="@+id/mmtv0"
+        android:textColor="#00B"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/suimageview"
+        android:src="@drawable/ic_launcher"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT YOUR OPTION"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:shadowDx="25"
+        android:shadowDy="25"
+        android:shadowRadius="50"
+        android:id="@+id/mmtv1"
+        android:textColor="#00B"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/mmpres"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRESENTATION"
+        />
+
+    <Button
+        android:id="@+id/mmplanner"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLANNER"
+        />
+
+    <Button
+        android:id="@+id/mmadminplanner"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MANAGE PLANNER"
+        />
+
+    <Button
+        android:id="@+id/mmselfplanner"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELF PLANNER"
+        />
+
+    <Button
+        android:id="@+id/mmreport"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REPORTING"
+        />
+
+    <Button
+        android:id="@+id/mmnotification"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MANAGE NOTIFICATION"
+        />
+
+    <Button
+        android:id="@+id/mmnotification_user"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICATION"
+        />
+
+    <Button
+        android:id="@+id/mmsml"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND MY LOCATION"
+        />
+
+    <Button
+        android:id="@+id/vtourreport"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW USER REPORT"
+        />
+
+    <Button
+        android:id="@+id/vdcrdetailreport"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAILED ANALYSIS REPORT"
+        android:background="@android:drawable/btn_dropdown"
+        />
+
+
+    <Button
+        android:id="@+id/mmtrack"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRACKING"
+        />
+
+    <Button
+        android:id="@+id/mmpgm"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLANNER ON GOOGLE MAPS"
+        />
+
+    <Button
+        android:id="@+id/mmpreslink"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRESENTATION LINKS"
+        />
+
+    <Button
+        android:id="@+id/mmadduser"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD USER"
+        />
+
+
+
+    <Button
+        android:id="@+id/mmdeluser"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE USER"
+        />
+
+    <Button
+        android:id="@+id/mmchgpwd"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHANGE USER PASSWORD"
+        />
+
+    <Button
+        android:id="@+id/mmuml"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE DR MASTER LIST"
+        />
+
+
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMERA"
+        />
+
+    <Button
+        android:id="@+id/senddoc"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND DOCUMENTARY PROOF"
+        />
+
+    <Button
+        android:id="@+id/sendmail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPEN EMAIL"
+        />
+
+    <Button
+        android:id="@+id/mmbackup"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACKUP DATA"
+        />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE APP"
+        />
+
+
+
+    <Button
+        android:id="@+id/mmsettings"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE ALL DATA"
+        />
+
+    <Button
+        android:id="@+id/mmsetting"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        />
+
+
+</LinearLayout>
+</ScrollView>

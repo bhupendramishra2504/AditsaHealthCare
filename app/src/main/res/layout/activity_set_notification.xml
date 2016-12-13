@@ -1,0 +1,66 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Controller_program"
+    android:layout_gravity="bottom">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/snimageview"
+        android:src="@drawable/ic_launcher"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sntitle"
+        android:layout_marginTop="10dp"
+        android:hint="TITLE"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/snmessage"
+        android:hint="MESSAGE"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+
+
+
+    <Button
+        android:id="@+id/snseluser"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sel User"
+        android:background="@android:drawable/btn_dropdown"
+       />
+
+    <Button
+        android:id="@+id/snsend"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"/>
+
+
+
+</LinearLayout>
+

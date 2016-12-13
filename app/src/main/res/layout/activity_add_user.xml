@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_add_user"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Controller_program"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:orientation="vertical"
+        tools:context="com.mlmishra.bhupendramishra.allelectronics.Signup_firebase"
+        android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/auimageview"
+        android:src="@drawable/ic_launcher"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD USER"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:shadowDx="25"
+        android:shadowDy="25"
+        android:shadowRadius="50"
+        android:id="@+id/autextView1"
+        android:textColor="#00B"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/auuser"
+        android:layout_marginTop="5dp"
+        android:hint="NAME"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aupassword"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aucpassword"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/auhq"
+        android:layout_marginTop="5dp"
+        android:hint="POSTED HEADQUARTER"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select User Type"
+        android:id="@+id/rg1">
+        <RadioButton
+            android:id="@+id/I11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Director"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/I15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/I12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regional Sales Manager" />
+
+        <RadioButton
+            android:id="@+id/I13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area Sales Manager" />
+
+        <RadioButton
+            android:id="@+id/I14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sales Executive"
+            android:checked="false"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/auseluser"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT ASM"
+        android:background="@android:drawable/btn_dropdown"
+
+        />
+
+    <Button
+        android:id="@+id/ausignup"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD USER"
+      />
+
+
+</LinearLayout>
+
+</ScrollView>

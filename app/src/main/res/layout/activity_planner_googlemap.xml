@@ -1,0 +1,76 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/search_layout"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Controller_program"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/r1">
+
+        <TextView android:text="@string/hello_world" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tes"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select your Option"
+            android:id="@+id/trg1"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/I1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All location"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/I2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Date"
+                android:checked="false" />
+        </RadioGroup>
+
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Select Date" android:id="@+id/datet" android:focusable="false"/>
+
+        <Button
+            android:id="@+id/tsbutton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select USER to track"
+            android:background="@android:drawable/btn_dropdown"/>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/tsss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take ScreenShot"
+            />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

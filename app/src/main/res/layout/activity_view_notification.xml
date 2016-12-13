@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Signup_firebase"
+    >
+
+    <TextView  android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/vnvra" android:layout_weight="0.8" android:scrollbars = "vertical"  android:textSize="15sp" android:textIsSelectable="true" android:background="#0087bd" android:textColor="#ffffff"/>
+
+
+</LinearLayout>

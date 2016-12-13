@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Signup_firebase"
+    >
+
+    <Button
+        android:id="@+id/auser"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT USER"
+        android:background="@android:drawable/btn_dropdown"
+        />
+
+    <Button
+        android:id="@+id/areport"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT REPORT"
+        android:background="@android:drawable/btn_dropdown"
+        />
+
+    <Button
+        android:id="@+id/ater"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT TERRITORY"
+        android:background="@android:drawable/btn_dropdown"
+        />
+
+    <Button
+        android:id="@+id/aspec"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT SPECIALITY"
+        android:background="@android:drawable/btn_dropdown"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/afdate"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="FROM DATE"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to"
+            android:id="@+id/to"/>
+
+        <Button
+            android:id="@+id/atdate"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TO DATE"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/asubmit"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        />
+
+    <TextView  android:layout_width="match_parent"
+        android:layout_height="0dp" android:id="@+id/avdc" android:layout_weight="0.8" android:scrollbars = "vertical" android:textIsSelectable="true" android:background="@drawable/border"
+        android:padding="10dp" android:textColor="#000000" />
+    <Button
+        android:id="@+id/asave"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE DATA"
+        />
+
+</LinearLayout>

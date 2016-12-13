@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/search_layout"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Controller_program"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:orientation="vertical"
+        tools:context="com.mlmishra.bhupendramishra.allelectronics.Signup_firebase"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:shadowDx="25"
+            android:shadowDy="25"
+            android:shadowRadius="50"
+            android:id="@+id/trtv0"
+            android:textColor="#00B"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/suimageview"
+            android:src="@drawable/ic_launcher"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOUR REPORT"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:shadowDx="25"
+            android:shadowDy="25"
+            android:shadowRadius="50"
+            android:id="@+id/trtv2"
+            android:textColor="#00B"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tpdesc"
+            android:layout_marginTop="10dp"
+            android:text="TOUR DESCRIPTION"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tpplace"
+            android:layout_marginTop="10dp"
+            android:hint="TOUR PLACE"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tpduration"
+            android:layout_marginTop="10dp"
+            android:hint="TOUR DURATION (No of days)"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tplcon"
+            android:layout_marginTop="10dp"
+            android:hint="ADD TRAVEL VOUCHER"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dates"
+            android:layout_marginTop="10dp"
+            android:hint="TOUR START DATE"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/comment"
+            android:layout_marginTop="10dp"
+            android:hint="COMMENT/REMARK"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"/>
+
+
+        <Button
+            android:id="@+id/trac"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD LOCAL CONVEYANCE"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PREVIEW"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:shadowDx="25"
+            android:shadowDy="25"
+            android:shadowRadius="50"
+            android:id="@+id/trtv1"
+            android:textColor="#00B"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/trsubmit"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

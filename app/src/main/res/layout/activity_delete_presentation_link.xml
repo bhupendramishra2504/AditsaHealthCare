@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Signup_firebase"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/auimageview"
+        android:src="@drawable/ic_launcher"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE PRESENTATION LINK"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:shadowDx="25"
+        android:shadowDy="25"
+        android:shadowRadius="50"
+        android:id="@+id/dltextView"
+        android:textColor="#00B"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/dlbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Link"
+        android:background="@android:drawable/btn_dropdown"/>
+
+
+    <Button
+        android:id="@+id/dellink"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE LINK"
+        />
+
+
+</LinearLayout>
+

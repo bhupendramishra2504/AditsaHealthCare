@@ -1,0 +1,99 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.mlmishra.bhupendramishra.allelectronics.Controller_program"
+    android:layout_gravity="bottom">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/suimageview"
+        android:src="@drawable/ic_launcher"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADITSA HEALTHCARE"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:shadowDx="25"
+        android:shadowDy="25"
+        android:shadowRadius="50"
+        android:id="@+id/textView"
+        android:textColor="#00B"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user"
+        android:layout_marginTop="10dp"
+        android:hint="EMPLOYEE ID"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:id="@+id/checkbox"
+        android:checked="false" />
+
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/signin"
+        android:background="@null"/>
+
+    <Button
+        android:id="@+id/offline"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OFFLINE ACCESS"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ver"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/chnlog"
+        android:scrollbars = "vertical"
+        android:textIsSelectable="true"/>
+
+
+</LinearLayout>
+
